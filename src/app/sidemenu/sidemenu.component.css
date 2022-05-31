@@ -1,0 +1,11 @@
+.example-sidenav-content {
+    height: 100%;
+    
+    
+
+}
+
+.botonera {
+    display: flex;
+    flex-direction: column;
+}

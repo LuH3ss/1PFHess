@@ -1,0 +1,10 @@
+.main {
+    background-color: rgba(218, 142, 43, 0.642);
+    height: 90.7vh;
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 18%;
+    
+}
+

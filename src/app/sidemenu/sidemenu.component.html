@@ -1,0 +1,22 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer class="botonera" #drawer class="example-sidenav" mode="side">
+      <p>Secciones</p>
+      <div class="botonera">
+      <button (click)="showFiller = !showFiller" mat-raised-button>
+        Admin
+      </button>
+      <button (click)="showFiller = !showFiller" mat-raised-button>
+        Alumnos
+      </button>
+    </div>
+    </mat-drawer>
+
+    <div class="example-sidenav-content">
+      <button type="button" mat-button (click)="drawer.toggle()">
+        Menu
+      </button>
+    </div>
+    <app-main-student  class="main"></app-main-student>
+  <app-admin  class="main"></app-admin>
+
+  </mat-drawer-container>
